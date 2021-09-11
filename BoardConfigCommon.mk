@@ -67,7 +67,6 @@ USE_CAMERA_STUB := true
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
 # Graphics
-OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
