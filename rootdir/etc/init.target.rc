@@ -162,4 +162,6 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      user root
      group system wakelock
 
-
+on init
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
