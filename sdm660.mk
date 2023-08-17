@@ -211,6 +211,9 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor
 
+# Google Camera
+$(call inherit-product, vendor/nokia/Camera/Camera-vendor.mk)
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1.vendor \
