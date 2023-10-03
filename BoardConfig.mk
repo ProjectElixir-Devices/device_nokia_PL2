@@ -36,6 +36,8 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 # Assert
 TARGET_BOARD_INFO_FILE := device/nokia/PL2/board-info.txt
 
+BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
+
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
