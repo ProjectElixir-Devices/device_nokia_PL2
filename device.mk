@@ -41,6 +41,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-hmd
 PRODUCT_PACKAGES += \
     init.PL2.target.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
