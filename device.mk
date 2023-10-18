@@ -54,5 +54,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.PL2.target.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
