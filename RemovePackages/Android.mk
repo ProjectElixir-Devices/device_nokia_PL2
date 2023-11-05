@@ -11,6 +11,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     Camera2 \
     CarrierLocation \
     CarrierMetrics \
+    Chrome \
+    Chrome-Stub \
     ConnMO \
     ConnMetrics \
     DCMO \
