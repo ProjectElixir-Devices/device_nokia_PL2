@@ -66,11 +66,10 @@ USE_CAMERA_STUB := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
-# Graphics
+# Display
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
-NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
