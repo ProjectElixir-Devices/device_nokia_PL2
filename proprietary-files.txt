@@ -1037,8 +1037,9 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# WiFi
-vendor/bin/cnss-daemon
+# WiFi - from A1N_sprout - 00WW_FIH-user 10 QKQ1.190828.002 00WW_5_120 release-keys
+vendor/bin/cnss-daemon|ed59715558ace0fa5c724de514d45017539fcd12
+vendor/bin/cnss_diag|c89246db0915c90785004de7451ca3a32de0d9ee
 
 # Widevine
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine
