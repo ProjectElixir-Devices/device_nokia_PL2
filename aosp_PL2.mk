@@ -10,6 +10,7 @@ $(call inherit-product, device/nokia/PL2/device.mk)
 ELIXIR_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_CALL_RECORDING := true
+EXCLUDE_LAWNCHAIR := true
 
 BUILD_FINGERPRINT := Nokia/Plate2_00WW/PL2_sprout:10/QKQ1.190828.002/00WW_4_15O:user/release-keys
 PRODUCT_BRAND := Nokia
