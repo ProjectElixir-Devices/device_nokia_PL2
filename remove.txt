@@ -1,0 +1,4 @@
+device/nokia
+vendor/nokia
+kernel/nokia
+prebuilts/clang/kernel/linux-x86/clang-r416183b
