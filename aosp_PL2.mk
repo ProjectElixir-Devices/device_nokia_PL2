@@ -18,7 +18,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AOSP stuff
+# Inherit some common Project Elixir stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from PL2 device
@@ -41,13 +41,12 @@ PRODUCT_MANUFACTURER := HMD Global
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := Nokia 6.1
 
-# AOSP Stuff
-TARGET_USES_AOSP_RECOVERY := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
+# Elixir  Flag
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_ENABLE_BLUR := false
+TARGET_SUPPORTS_CALL_RECORDING := true
+ELIXIR_BUILD_TYPE := OFFICIAL
+EXCLUDE_LAWNCHAIR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-hmd
 
